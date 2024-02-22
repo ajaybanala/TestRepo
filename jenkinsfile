@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+    stages {
+        stage ('Task') {
+            steps {
+        sh '''#!/bin/bash
+        sleep 30
+        echo "Hello ScriptedPipeline"'''
+            }
+        }
+    }
+}
