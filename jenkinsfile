@@ -3,9 +3,7 @@ pipeline {
     stages {
         stage ('Task') {
             steps {
-        sh '''#!/bin/bash
-        sleep 30
-        echo "Hello ScriptedPipeline"'''
+echo 'Print first line'
             }
         }
     }
