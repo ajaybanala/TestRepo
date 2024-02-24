@@ -4,7 +4,11 @@ pipeline {
     stages {
         stage ('Task') {
             steps {
-echo "${text}"
+            echo "${text}"
+            scipt {
+                    def name="vtech"
+                    echo "${name}"    
+}
             }
         }
     }
