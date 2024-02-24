@@ -5,7 +5,7 @@ pipeline {
         stage ('Task') {
             steps {
             echo "${text}"
-            scipt {
+            script {
                     def name="vtech"
                     echo "${name}"    
 }
