@@ -7,7 +7,11 @@ pipeline {
             echo "${text}"
             script {
                     def name="vtech"
-                    echo "${name}"    
+                if (name == ajay)
+                println (hi ${name}
+                else
+                println (' secondloop')
+                     
 }
             }
         }
