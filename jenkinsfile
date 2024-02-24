@@ -7,10 +7,10 @@ pipeline {
             echo "${text}"
             script {
                     def name="vtech"
-                if (name == ajay)
+                if (name == "ajay")
                 println ("hi ${name}")
                 else
-                println (' secondloop')
+                println ("secondloop")
                      
 }
             }
