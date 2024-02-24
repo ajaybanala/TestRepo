@@ -8,7 +8,7 @@ pipeline {
             script {
                     def name="vtech"
                 if (name == ajay)
-                println (hi ${name}
+                println ("hi ${name}")
                 else
                 println (' secondloop')
                      
