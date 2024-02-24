@@ -1,9 +1,10 @@
+def text = "welocme to Hello World"
 pipeline {
     agent any
     stages {
         stage ('Task') {
             steps {
-echo 'Print first line'
+echo "${text}"
             }
         }
     }
